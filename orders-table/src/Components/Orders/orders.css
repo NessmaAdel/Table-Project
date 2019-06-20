@@ -88,6 +88,7 @@ color: #DDD;
 .react-bootstrap-table-pagination-list .pagination{
     display: -webkit-inline-box;
     overflow: hidden;
+    padding-left: 4rem;
 }
 
 .react-bootstrap-table-page-btns-ul{
