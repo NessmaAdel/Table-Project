@@ -1,13 +1,15 @@
 .Content{
     background: #83ACCC;
     position: absolute;
-    width: 100%;
     z-index: 9999;
-    border: 0.7rem solid transparent;
+    width: fit-content;
     border-radius: 2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     box-shadow: 0px 7px 10px 10px rgba(0, 0, 0, 0.3);
+    padding: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 
 }
 .Content .react-bootstrap-table{
@@ -17,21 +19,35 @@
     border: none !important;
 }
 .Content .react-bootstrap-table .table-bordered thead{
-    color: #f1f1ff;
+    color: #333;
     font-weight: 300;
-    font-size: 1.1em;
+    text-align: center;
+}
+.Content .react-bootstrap-table .table-bordered tbody{
+    text-align: center;
 }
 .Content .react-bootstrap-table .table th{
     border-top:none !important;
 }
 .Content .react-bootstrap-table .table td{
-font-size: 1rem;
 font-weight: 600;
 color: #DDD;
 }
-.Content .react-bootstrap-table .table td, 
+.Content .react-bootstrap-table .table td{
+    vertical-align: inherit; 
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border-top: 1px solid #dee2e6;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+}
 .Content .react-bootstrap-table .table th{
     vertical-align: inherit;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top:0.5rem ;
+    padding-bottom: 0.5rem;
 }
 .Content .react-bootstrap-table .table-bordered td:last-child,
 .Content .react-bootstrap-table .table-bordered th:last-child{
@@ -45,21 +61,22 @@ color: #DDD;
 
 .Content .react-bootstrap-table-pagination .btn-secondary{
     color: #f1f1ff;
-    background: #416f96;
-    border-color: #83ACCC;
+    background: #28a745;
+    border-color: #28a745;
     font-weight: bolder;
+    margin-left: 6rem;
 }
 .Content .react-bootstrap-table-pagination .btn-secondary:hover{
     color: #DDD;
     background: #44749A;
     border-color: #44749A;
 }
-
+.react-bootstrap-table-pagination-list 
 .react-bs-table-sizePerPage-dropdown .dropdown-menu{
     text-align: center;
 }
 .react-bs-table-sizePerPage-dropdown .dropdown-item{
-    font-size: 1.1rem;
+    text-align: center;
 }
 .react-bs-table-sizePerPage-dropdown .dropdown-item:hover{
     background: #83ACCC;
@@ -70,4 +87,13 @@ color: #DDD;
 }
 .react-bootstrap-table-pagination-list .pagination{
     display: -webkit-inline-box;
+    overflow: hidden;
+}
+
+.react-bootstrap-table-page-btns-ul{
+    float: left; 
+}
+.react-bootstrap-table-page-btns-ul .page-item.active .page-link{
+    background: #28a745;
+    border-color:#28a745; 
 }

@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import BootstrapTable from 'react-bootstrap-table-next';
 import paginationFactory from 'react-bootstrap-table2-paginator';
 import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
+import  'react-bootstrap-table2-paginator/dist/react-bootstrap-table2-paginator.min.css';
 import './orders.css';
 
 class Orders extends Component {
@@ -37,7 +38,7 @@ class Orders extends Component {
       })
       let columns = [
         { text: 'ID', dataField: 'id' },
-        { text: 'Customer name', dataField: 'name'  },
+        { text: 'Customer Name', dataField: 'name'  },
         {text: 'Address', dataField:'address'},
         {text: 'Order_Price', dataField:'order_price'},
         {text: 'Discount', dataField: 'discount'},
