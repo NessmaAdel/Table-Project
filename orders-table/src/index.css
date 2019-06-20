@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Tajawal', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-repeat: repeat;
+  background-position: 100% 100%;
+  background-size: 50% !important;
+  position: relative;
+  background-image: url('/imgs/bg2.jpg') !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

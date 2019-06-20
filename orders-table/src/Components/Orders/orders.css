@@ -1,0 +1,73 @@
+.Content{
+    background: #83ACCC;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    border: 0.7rem solid transparent;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: 0px 7px 10px 10px rgba(0, 0, 0, 0.3);
+
+}
+.Content .react-bootstrap-table{
+    border: none !important;
+}
+.Content .react-bootstrap-table .table-bordered{
+    border: none !important;
+}
+.Content .react-bootstrap-table .table-bordered thead{
+    color: #f1f1ff;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+.Content .react-bootstrap-table .table th{
+    border-top:none !important;
+}
+.Content .react-bootstrap-table .table td{
+font-size: 1rem;
+font-weight: 600;
+color: #DDD;
+}
+.Content .react-bootstrap-table .table td, 
+.Content .react-bootstrap-table .table th{
+    vertical-align: inherit;
+}
+.Content .react-bootstrap-table .table-bordered td:last-child,
+.Content .react-bootstrap-table .table-bordered th:last-child{
+     border-right: none;
+
+}
+.Content .react-bootstrap-table .table-bordered td:first-child,
+.Content .react-bootstrap-table .table-bordered th:first-child{
+    border-left: none ;
+}
+
+.Content .react-bootstrap-table-pagination .btn-secondary{
+    color: #f1f1ff;
+    background: #416f96;
+    border-color: #83ACCC;
+    font-weight: bolder;
+}
+.Content .react-bootstrap-table-pagination .btn-secondary:hover{
+    color: #DDD;
+    background: #44749A;
+    border-color: #44749A;
+}
+.react-bootstrap-table-pagination-list 
+.react-bs-table-sizePerPage-dropdown .dropdown-menu{
+    text-align: center;
+}
+.react-bs-table-sizePerPage-dropdown .dropdown-item{
+    font-size: 1.1rem;
+}
+.react-bs-table-sizePerPage-dropdown .dropdown-item:hover{
+    background: #83ACCC;
+}
+.react-bs-table-sizePerPage-dropdown .dropdown-item a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.react-bootstrap-table-pagination-list .pagination{
+    display: -webkit-inline-box;
+}
